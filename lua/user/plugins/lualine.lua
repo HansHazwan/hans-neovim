@@ -19,6 +19,7 @@ local config = {
     lualine_b = {
       {
         "diff",
+        colored = true,
         symbols = { added = " ", modified = " ", removed = " " },
         diff_color = {
           added = { fg = colors.green },
@@ -61,4 +62,5 @@ local config = {
 }
 
 require("lualine").setup(config)
+
 
