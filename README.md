@@ -20,6 +20,8 @@ This project are suitable for programmer who want to learn about configuration a
 - black package from pip
 - stylua cli
 - gofmt
+- luarocks
+- luacheck
 
 ## Installation
 
