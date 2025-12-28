@@ -5,5 +5,16 @@ return {
   },
   config = function()
     require("nvim-tree").setup()
-  end,
+
+    local keymap = vim.keymap.set
+    local opts = { silent = true }
+
+    keymap("n", "<leader>t", function()
+      vim.cmd(":NvimTreeToggle")
+    end, opts)
+    keymap("n", "<leader>f", function()
+      vim.cmd(":NvimTreeFocus")
+    end, opts)
+ 
+ end,
 }
