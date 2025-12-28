@@ -16,6 +16,10 @@ This project are suitable for programmer who want to learn about configuration a
 - Lua version 5.4.6
 - tree-sitter cli
 - Git
+- prettier cli
+- black package from pip
+- stylua cli
+- gofmt
 
 ## Installation
 
